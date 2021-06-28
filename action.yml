@@ -5,8 +5,8 @@ inputs:
     description: 'The TOML file to read from'
     required: true
   field:
-	description: 'The field inside the TOML file to read'
-	required: true
+    description: 'The field inside the TOML file to read'
+    required: true
 outputs:
   value:
     description: 'The data stored in `field` inside `file`'

@@ -1,5 +1,7 @@
 name: 'TOML Reader'
 description: 'Read a specific field from a TOML file'
+icon: file-text
+color: gray-dark
 inputs:
   file:
     description: 'The TOML file to read from'

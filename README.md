@@ -20,7 +20,9 @@ The value stored inside `file` at key `field`.
 ## Example usage
 ```
 uses: SebRollen/toml-action@v1.0.0
+id: read_toml
 with:
   file: 'myfile.toml'
   field: 'package.version'
 ```
+You can now refer to the output in a later step using `steps.read_toml.outputs.value`

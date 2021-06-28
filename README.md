@@ -18,8 +18,9 @@ A simple action to read a single field from a TOML file and output the value sto
 The value stored inside `file` at key `field`.
 
 ## Example usage
-
+```
 uses: SebRollen/toml-action@v1.0.0
 with:
   file: 'myfile.toml'
   field: 'package.version'
+```

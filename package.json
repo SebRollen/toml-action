@@ -12,6 +12,6 @@
   "dependencies": {
     "@actions/core": "^1.10.0",
     "@actions/github": "^5.0.0",
-    "toml": "^3.0.0"
+    "@iarna/toml": "^2.2.5"
   }
 }

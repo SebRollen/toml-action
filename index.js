@@ -1,6 +1,6 @@
 const core = require('@actions/core');
 const github = require('@actions/github');
-const toml = require('toml');
+const toml = require('@iarna/toml');
 const fs = require('fs');
 
 try {

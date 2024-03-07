@@ -11,7 +11,7 @@ try {
   var parsed = toml.parse(str);
   var value = parsed;
   fields.forEach(function (f) {
-    value = value[f];
+    value = value?.[f];
   });
   core.setOutput("value", value);
 } catch (error) {

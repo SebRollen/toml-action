@@ -19,7 +19,7 @@ The value stored inside `file` at key `field`.
 
 ## Example usage
 ```
-uses: SebRollen/toml-action@v1.0.2
+uses: SebRollen/toml-action@v1.2.0
 id: read_toml
 with:
   file: 'myfile.toml'
